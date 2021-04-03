@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+    background: linear-gradient(purple 0%, blue 100%);
+    background-repeat: no-repeat;
+}
+
+img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 2px 2px blue;
+}
+
+h2 {
+    text-shadow: 2px 2px blue;
+    font-family: 'Courgette', cursive;
+}
+
+.menu {
+    font-family: sans-serif;
+    z-index: 10px;
+    top: 0px;
+    margin-top: 0px;
+    position: fixed;
+    background-color: white;
+}
+
+.links {
+
+    color: #fff;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+
+.links:hover {
+    font-size: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.line {
+    background-color: black;
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.headline {
+    font-size: 25px;
+    color: black;
+}
+
+button {
+    background-color: yellowgreen;
+    height: 50px;
+    width: 200px;
+}
+
+#a {
+    font-size: 20px;
+}
+
+.img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.inspiration {
+    height: 500px;
+    width: 400px;
+    border: 10px solid black;
+    border-radius: 0%
+}
+
+.contact_1 a {
+    color: white;
+}
+
+.contact_1 {
+    background-color: firebrick;
+}
